@@ -1,5 +1,5 @@
 const TelegarmBot = require("node-telegram-bot-api");
-const token ="your token api";
+const token ="1781435457:AAG8n78i56y7Ml4pLkjvBlCF_BougYYIxms";
 const CoinMarketCap = require("node-coinmarketcap");
 const bot = new TelegarmBot(token,{polling:true});
 let coinmarketcap = new CoinMarketCap();
